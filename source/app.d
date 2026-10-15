@@ -36,7 +36,7 @@ __gshared string libraryPath;
 __gshared string provisioningPath;
 
 enum brandingCode = format!"anisette-v3-server v%s"(provisionVersion);
-enum clientInfo = "<Pixel 8><Android; 14; UQ1A.240205.004><com.apple.AuthKit/1 (com.apple.android.music/4.9.6)>";
+enum clientInfo = "<PC> <Windows;6.2(0,0);9200> <com.apple.AuthKit/1 (com.apple.iTunes/12.12.4.1)>";
 enum dsId = -2;
 
 __gshared ADI v1Adi;
